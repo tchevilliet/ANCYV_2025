@@ -1,0 +1,21 @@
+\documentclass{standalone}
+\usepackage{tikz}
+% all other packages and stuff you need for the picture
+
+\begin{document}
+
+\begin{tikzpicture}
+    % Rectangle
+    \draw  (0,0) rectangle (6,2) node[midway]{Production d'électricité};
+    
+    % Flèches
+    \draw [->, >=latex] (-1,1) node[left] {$2l$ d'essence} -- (0,1) ;
+    \draw [->, >=latex] (6,1) -- (7,1) node[right] {$10 kWh$ d'électricité} ;
+    
+    \draw [->, >=latex] (1,0) -- (1,-1) node[below] {$1 kg$ de $CO_{2}$} ;
+    
+    \draw [->, >=latex] (5,0) -- (5,-1) node[below] {$0.1 kg$ de $SO_{2}$} ;
+    
+\end{tikzpicture} 
+
+\end{document}
