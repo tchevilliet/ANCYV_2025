@@ -1,0 +1,131 @@
+,Elementary flow,CF
+0,"('1,1,1,2-Tetrafluoroethane', ('air',))",1550.0
+1,"('1,1,1,2-Tetrafluoroethane', ('air', 'urban air close to ground'))",1550.0
+2,"('1,1,1-Trichloroethane', ('air',))",193.0
+3,"('1,1,1-Trichloroethane', ('air', 'urban air close to ground'))",193.0
+4,"('1,1,1-Trifluoroethane', ('air', 'low population density, long-term'))",5510.0
+5,"('1,1,1-Trifluoroethane', ('air', 'non-urban air or from high stacks'))",5510.0
+6,"('1,1,1-Trifluoroethane', ('air',))",5510.0
+7,"('1,1,1-Trifluoroethane', ('air', 'urban air close to ground'))",5510.0
+8,"('1,1,2-Trichloro-1,2,2-trifluoroethane', ('air',))",6590.0
+9,"('1,1,2-Trichloro-1,2,2-trifluoroethane', ('air', 'urban air close to ground'))",6590.0
+10,"('1,1-Dichloro-1-fluoroethane', ('air',))",938.0
+11,"('1,1-Dichloro-1-fluoroethane', ('air', 'urban air close to ground'))",938.0
+12,"('1,1-Difluoroethane', ('air', 'low population density, long-term'))",167.0
+13,"('1,1-Difluoroethane', ('air', 'non-urban air or from high stacks'))",167.0
+14,"('1,1-Difluoroethane', ('air',))",167.0
+15,"('1,1-Difluoroethane', ('air', 'urban air close to ground'))",167.0
+16,"('1,2-Dichloro-1,1,2,2-tetrafluoroethane', ('air', 'low population density, long-term'))",9620.0
+17,"('1,2-Dichloro-1,1,2,2-tetrafluoroethane', ('air', 'non-urban air or from high stacks'))",9620.0
+18,"('1,2-Dichloro-1,1,2,2-tetrafluoroethane', ('air',))",9620.0
+19,"('1,2-Dichloro-1,1,2,2-tetrafluoroethane', ('air', 'urban air close to ground'))",9620.0
+20,"('1-Chloro-1,1-difluoroethane', ('air', 'low population density, long-term'))",2350.0
+21,"('1-Chloro-1,1-difluoroethane', ('air', 'non-urban air or from high stacks'))",2350.0
+22,"('1-Chloro-1,1-difluoroethane', ('air',))",2350.0
+23,"('1-Chloro-1,1-difluoroethane', ('air', 'urban air close to ground'))",2350.0
+24,"('2,2-Dichloro-1,1,1-trifluoroethane', ('air',))",96.0
+25,"('2,2-Dichloro-1,1,1-trifluoroethane', ('air', 'urban air close to ground'))",96.0
+26,"('2-Chloro-1,1,1,2-tetrafluoroethane', ('air', 'low population density, long-term'))",635.0
+27,"('2-Chloro-1,1,1,2-tetrafluoroethane', ('air', 'non-urban air or from high stacks'))",635.0
+28,"('2-Chloro-1,1,1,2-tetrafluoroethane', ('air',))",635.0
+29,"('2-Chloro-1,1,1,2-tetrafluoroethane', ('air', 'urban air close to ground'))",635.0
+30,"('Bromochlorodifluoromethane', ('air', 'low population density, long-term'))",2070.0
+31,"('Bromochlorodifluoromethane', ('air', 'non-urban air or from high stacks'))",2070.0
+32,"('Bromochlorodifluoromethane', ('air',))",2070.0
+33,"('Bromochlorodifluoromethane', ('air', 'urban air close to ground'))",2070.0
+34,"('Bromomethane', ('air',))",3.0
+35,"('Bromomethane', ('air', 'urban air close to ground'))",3.0
+36,"('Bromotrifluoromethane', ('air', 'low population density, long-term'))",7150.0
+37,"('Bromotrifluoromethane', ('air', 'non-urban air or from high stacks'))",7150.0
+38,"('Bromotrifluoromethane', ('air',))",7150.0
+39,"('Bromotrifluoromethane', ('air', 'urban air close to ground'))",7150.0
+40,"('Carbon dioxide, fossil', ('air', 'low population density, long-term'))",1.0
+41,"('Carbon dioxide, fossil', ('air', 'lower stratosphere + upper troposphere'))",1.0
+42,"('Carbon dioxide, fossil', ('air', 'non-urban air or from high stacks'))",1.0
+43,"('Carbon dioxide, fossil', ('air',))",1.0
+44,"('Carbon dioxide, fossil', ('air', 'urban air close to ground'))",1.0
+45,"('Carbon dioxide, from soil or biomass stock', ('air', 'low population density, long-term'))",1.0
+46,"('Carbon dioxide, from soil or biomass stock', ('air', 'non-urban air or from high stacks'))",1.0
+47,"('Carbon dioxide, from soil or biomass stock', ('air',))",1.0
+48,"('Carbon dioxide, from soil or biomass stock', ('air', 'urban air close to ground'))",1.0
+49,"('Carbon dioxide, to soil or biomass stock', ('soil', 'agricultural'))",-1.0
+50,"('Carbon dioxide, to soil or biomass stock', ('soil', 'forestry'))",-1.0
+51,"('Carbon dioxide, to soil or biomass stock', ('soil', 'industrial'))",-1.0
+52,"('Carbon dioxide, to soil or biomass stock', ('soil',))",-1.0
+53,"('Carbon tetrachloride', ('air',))",2020.0
+54,"('Carbon tetrachloride', ('air', 'urban air close to ground'))",2020.0
+55,"('Chlorodifluoromethane', ('air',))",2110.0
+56,"('Chlorodifluoromethane', ('air', 'urban air close to ground'))",2110.0
+57,"('Chloroform', ('air',))",20.0
+58,"('Chloroform', ('air', 'urban air close to ground'))",20.0
+59,"('Chlorotrifluoromethane', ('air', 'low population density, long-term'))",15500.0
+60,"('Chlorotrifluoromethane', ('air', 'non-urban air or from high stacks'))",15500.0
+61,"('Chlorotrifluoromethane', ('air',))",15500.0
+62,"('Chlorotrifluoromethane', ('air', 'urban air close to ground'))",15500.0
+63,"('Dichlorodifluoromethane', ('air',))",11500.0
+64,"('Dichlorodifluoromethane', ('air', 'urban air close to ground'))",11500.0
+65,"('Dichlorofluoromethane', ('air', 'low population density, long-term'))",179.0
+66,"('Dichlorofluoromethane', ('air', 'non-urban air or from high stacks'))",179.0
+67,"('Dichlorofluoromethane', ('air',))",179.0
+68,"('Dichlorofluoromethane', ('air', 'urban air close to ground'))",179.0
+69,"('Dichloromethane', ('air',))",11.0
+70,"('Dichloromethane', ('air', 'urban air close to ground'))",11.0
+71,"('Difluoromethane', ('air', 'low population density, long-term'))",817.0
+72,"('Difluoromethane', ('air', 'non-urban air or from high stacks'))",817.0
+73,"('Difluoromethane', ('air',))",817.0
+74,"('Difluoromethane', ('air', 'urban air close to ground'))",817.0
+75,"('Dinitrogen monoxide', ('air', 'low population density, long-term'))",298.0
+76,"('Dinitrogen monoxide', ('air', 'non-urban air or from high stacks'))",298.0
+77,"('Dinitrogen monoxide', ('air',))",298.0
+78,"('Dinitrogen monoxide', ('air', 'urban air close to ground'))",298.0
+79,"('Ethylene dichloride', ('air',))",1.0
+80,"('Ethylene dichloride', ('air', 'urban air close to ground'))",1.0
+81,"('Hexafluoroethane', ('air', 'low population density, long-term'))",12300.0
+82,"('Hexafluoroethane', ('air', 'non-urban air or from high stacks'))",12300.0
+83,"('Hexafluoroethane', ('air',))",12300.0
+84,"('Hexafluoroethane', ('air', 'urban air close to ground'))",12300.0
+85,"('Hydrocarbons, chlorinated', ('air',))",13.8
+86,"('Hydrocarbons, chlorinated', ('air', 'urban air close to ground'))",13.8
+87,"('Methane, fossil', ('air', 'low population density, long-term'))",36.0
+88,"('Methane, fossil', ('air', 'non-urban air or from high stacks'))",36.0
+89,"('Methane, fossil', ('air',))",36.0
+90,"('Methane, fossil', ('air', 'urban air close to ground'))",36.0
+91,"('Methane, from soil or biomass stock', ('air', 'low population density, long-term'))",34.0
+92,"('Methane, from soil or biomass stock', ('air', 'non-urban air or from high stacks'))",34.0
+93,"('Methane, from soil or biomass stock', ('air',))",34.0
+94,"('Methane, from soil or biomass stock', ('air', 'urban air close to ground'))",34.0
+95,"('Methane, non-fossil', ('air', 'low population density, long-term'))",34.0
+96,"('Methane, non-fossil', ('air', 'non-urban air or from high stacks'))",34.0
+97,"('Methane, non-fossil', ('air',))",34.0
+98,"('Methane, non-fossil', ('air', 'urban air close to ground'))",34.0
+99,"('Methylchloride', ('air',))",15.0
+100,"('Methylchloride', ('air', 'urban air close to ground'))",15.0
+101,"('Monochloropentafluoroethane', ('air', 'low population density, long-term'))",8520.0
+102,"('Monochloropentafluoroethane', ('air', 'non-urban air or from high stacks'))",8520.0
+103,"('Monochloropentafluoroethane', ('air',))",8520.0
+104,"('Monochloropentafluoroethane', ('air', 'urban air close to ground'))",8520.0
+105,"('Nitrogen fluoride', ('air', 'low population density, long-term'))",17900.0
+106,"('Nitrogen fluoride', ('air', 'non-urban air or from high stacks'))",17900.0
+107,"('Nitrogen fluoride', ('air',))",17900.0
+108,"('Nitrogen fluoride', ('air', 'urban air close to ground'))",17900.0
+109,"('Pentafluoroethane', ('air', 'low population density, long-term'))",3690.0
+110,"('Pentafluoroethane', ('air', 'non-urban air or from high stacks'))",3690.0
+111,"('Pentafluoroethane', ('air',))",3690.0
+112,"('Pentafluoroethane', ('air', 'urban air close to ground'))",3690.0
+113,"('Perfluoropentane', ('air',))",9480.0
+114,"('Sulfur hexafluoride', ('air', 'low population density, long-term'))",26100.0
+115,"('Sulfur hexafluoride', ('air', 'non-urban air or from high stacks'))",26100.0
+116,"('Sulfur hexafluoride', ('air',))",26100.0
+117,"('Sulfur hexafluoride', ('air', 'urban air close to ground'))",26100.0
+118,"('Sulfuryl fluoride', ('air', 'non-urban air or from high stacks'))",4730.0
+119,"('Sulfuryl fluoride', ('air',))",4730.0
+120,"('Tetrafluoromethane', ('air', 'low population density, long-term'))",7350.0
+121,"('Tetrafluoromethane', ('air', 'non-urban air or from high stacks'))",7350.0
+122,"('Tetrafluoromethane', ('air',))",7350.0
+123,"('Tetrafluoromethane', ('air', 'urban air close to ground'))",7350.0
+124,"('Trichlorofluoromethane', ('air',))",5350.0
+125,"('Trichlorofluoromethane', ('air', 'urban air close to ground'))",5350.0
+126,"('Trifluoromethane', ('air', 'low population density, long-term'))",13900.0
+127,"('Trifluoromethane', ('air', 'non-urban air or from high stacks'))",13900.0
+128,"('Trifluoromethane', ('air',))",13900.0
+129,"('Trifluoromethane', ('air', 'urban air close to ground'))",13900.0
