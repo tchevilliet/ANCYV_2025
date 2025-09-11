@@ -1,0 +1,25 @@
+demands = { 'A' : {beton_A.id : 1.0}, 'B' : {beton_B.id : 1.0}} # Les demandes évaluée sont rangées dans un dictionnaires, elles ont un nom, ici nous choisissons A et B.
+method_config = {'impact_categories' : [gwp100]} # On ne considère que le gwp100 ici
+data_objs = bd.get_multilca_data_objs(demands, method_config)
+
+lca = bc.MultiLCA(demands=demands, method_config= method_config, data_objs=data_objs,use_distributions=True)
+lca.lci()
+lca.lcia()
+
+lca_dep = [lca.scores for _ in zip(lca,range(n_MC))]
+
+
+df_lca=pd.DataFrame.from_dict(lca_dep[0],orient='index')
+for l in lca_dep[1:] :
+    df_lca = pd.concat([pd.DataFrame.from_dict(l,orient='index'),df_lca])
+df_lca = df_lca.reset_index()
+
+res = pd.DataFrame(columns=['indicateur','beton','score','dependant'])
+for r in df_lca.index :
+    tmp = df_lca.at[r,'index']
+    res = pd.concat([pd.DataFrame([[str(tmp[0][2:]),tmp[1],df_lca.at[r,0],'DEP']], columns=res.columns), res], ignore_index=True)
+
+#ajout des tirages indépendant
+
+res = pd.concat([pd.DataFrame({'indicateur': [gwp100[2:] for _ in range(n_MC)],'beton':['A' for _ in range(n_MC)],'score':scores_A,'dependant' : ['INDEP' for _ in range(n_MC)]}),res], ignore_index=True)
+res = pd.concat([pd.DataFrame({'indicateur': [gwp100[2:] for _ in range(n_MC)],'beton':['B' for _ in range(n_MC)],'score':scores_B,'dependant' : ['INDEP' for _ in range(n_MC)]}),res], ignore_index=True)
