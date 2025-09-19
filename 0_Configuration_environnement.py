@@ -5,13 +5,22 @@ import subprocess
 
 # Nom de l'environnement virtuel et fichier de dépendances
 ENV_DIR = "acv_env"
-REQ_FILE = "requirements.txt"
+PACKAGES = [
+    "brightway25",
+    "pypardiso",
+    "notebook",
+    "jupyterlab",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+]
 
 def run(cmd):
-    print(f"> Running: {cmd}")
+    print(f"> {cmd}")
     subprocess.check_call(cmd, shell=True)
 
-def main(python_min_version="3.8"):
+def main(python_min_version="3.11"):
     # Check Python version
     python_version = int(python_min_version.split('.')[0])
     python_subversion = int(python_min_version.split('.')[1])
@@ -34,26 +43,30 @@ def main(python_min_version="3.8"):
         pip_path = os.path.join(ENV_DIR, "bin", "pip")
         python_path = os.path.join(ENV_DIR, "bin", "python")
 
-    # Activate path
-    if os.name == "nt":  # Windows
+    # Paths
+    if os.name == "nt":
         pip_path = os.path.join(ENV_DIR, "Scripts", "pip.exe")
         python_path = os.path.join(ENV_DIR, "Scripts", "python.exe")
-    else:  # Linux/Mac
+        activate_hint = rf"{ENV_DIR}\Scripts\activate"
+    else:
         pip_path = os.path.join(ENV_DIR, "bin", "pip")
         python_path = os.path.join(ENV_DIR, "bin", "python")
+        activate_hint = f"source {ENV_DIR}/bin/activate"
 
-    # Upgrade pip
-    run(f"{python_path} -m pip install --upgrade pip")
+    # Upgrade pip/setuptools/wheel
+    run(f'"{python_path}" -m pip install --upgrade pip setuptools wheel')
 
-    # Install requirements
-    run(f'"{pip_path}" install -r {REQ_FILE}')
+    # Install each package individually
+    for pkg in PACKAGES:
+        print(f"Installing: {pkg}")
+        run(f'"{pip_path}" install {pkg}')
 
     print("Configuration réussie !")
     print("Pour lancer accéder aux notebooks, entrer:")
     if os.name == "nt":
-        print(r"  venv\Scripts\activate")
+        print(r"  acv_env\Scripts\activate")
     else:
-        print("  source venv/bin/activate")
+        print("  source acv_env/bin/activate")
     print("  jupyter notebook")
 
 if __name__ == "__main__":
