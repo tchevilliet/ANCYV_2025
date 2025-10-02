@@ -1,0 +1,44 @@
+Pour installer Brightway, il vous faut:
+1. Installer Python 3.11 sur votre machine
+    (lien d'installation: https://www.python.org/downloads/release/python-3119/)
+    Sur Windows, pensez à cocher "Add python.exe to PATH" lors de l'installation
+2. Placer les 3 fichiers téléchargés 0_Configuration_environnement.py,
+    0_Installation_ecoinvent.ipynb, et brightway2_project_ecoinvent_311.tar.gz
+    dans un même dossier à l'emplacement de votre choix.
+3. Ouvrir une invite de commande et vous placer dans le dossier choisi. Par
+    exemple, si vous avez placé les 3 fichiers téléchargés dans le dossier
+    C:\Users\Username\Documents\Cours\ACV, alors il vous faudra taper la
+    commande: cd "C:\Users\Username\Documents\Cours\ACV".
+4. Taper la commande "python 0_Configuration_environnement.py". Cette commande
+    sert à créer un environnement virtuel nommé "acv_env" (qui apparaîtra sous
+    la forme d'un sous-dossier), et à y installer tout ce dont on a besoin pour
+    utiliser Brightway. Une fois la commande lancée, cela peut prendre quelques
+    minutes.
+5. Une fois que l'étape 4 est terminée, activez l'environnement virtuel en
+    tapant soit acv_env\Scripts\activate (pour Windows), soit
+    source acv_env/bin/activate (pour Linux/Mac)
+6. Ouvrir l'interface jupyter notebook via la commande "jupyter notebook" et
+    cliquer sur le fichier 0_Installation_ecoinvent.ipynb pour l'ouvrir.
+7. Exécuter toutes les cellules, en cliquant à chaque fois sur le bouton
+    correspondant (ou en utilisant le raccourci Shift+Enter). Si toutes les
+    cellules s'exécutent sans rencontrer d'erreur, vous êtes prêt.e.s pour le
+    prochain cours !
+
+En cas de pépin:
+1. Vérifiez que vous avez bien installé la bonne version de Python, et que c'est
+    celle-ci que votre invite de commande utilise (vous pouvez vérifier la
+    version de python avec la commande "python --version").
+2. Si vous êtes sur Linux et que les commandes "python" ou "pip" ne fonctionnent
+    pas, essayez plutôt "python3" ou "pip3".
+3. Si la commande "python 0_Configuration_environnement.py" rencontre une erreur,
+    essayez d'installer Brightway manuellement, en tapant les commandes
+    suivantes:
+    - "virtualenv acv_env"
+    - "acv_env\Scripts\activate" (Windows), ou "source acv_env/bin/activate"
+        (Linux/Mac)
+    - "pip install brightway25 pypardiso notebook jupyterlab numpy pandas matplotlib seaborn"
+    - Ensuite reprendre depuis l'étape 6.
+4. Si cela ne résout pas votre problème: contactez-nous par email
+    (maxime.pollet@enpc.fr ou thibault.chevilliet@enpc.fr), ou venez nous voir
+    avec votre machine en V113 jeudi dans la journée.
+    

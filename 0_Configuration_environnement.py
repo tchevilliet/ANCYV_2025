@@ -62,7 +62,7 @@ def main(python_min_version="3.11"):
         run(f'"{pip_path}" install {pkg}')
 
     print("Configuration réussie !")
-    print("Pour lancer accéder aux notebooks, entrer:")
+    print("Pour accéder aux notebooks, entrer:")
     if os.name == "nt":
         print(r"  acv_env\Scripts\activate")
     else:
