@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="149.20743mm"
+   height="61.868382mm"
+   viewBox="0 0 149.20743 61.868382"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (1:1.4.2+202505120738+ebf0e940d0)"
+   sodipodi:docname="allocations.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.0532399"
+     inkscape:cx="735.82475"
+     inkscape:cy="1138.3921"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="149.20743"
+       height="61.868382"
+       id="page9"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="alloc_3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <inkscape:page
+       x="0"
+       y="73.184212"
+       width="149.20743"
+       height="61.868382"
+       id="page10"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="0"
+       y="156.64476"
+       width="149.20743"
+       height="61.868382"
+       id="page11"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="alloc_4.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <inkscape:page
+       x="175.7681"
+       y="242.51134"
+       width="93.202087"
+       height="103.62316"
+       id="page12"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="alloc_4.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-5-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-54" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-5-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7-6-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-5-2-6" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7-6-5-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-5-2-6-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-1"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-5-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7-6-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-5-2-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-5-9"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-54-3" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7-7-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-5-6-8" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7-6-5-0-6"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-5-2-6-2-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide-7-6-5-0-6-0"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1.5"
+       markerHeight="1.5"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path2-5-2-6-2-7-2" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-38.135406,39.078949)">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.508527;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1"
+       width="75.958824"
+       height="28.222263"
+       x="45.97467"
+       y="66.711235" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide)"
+       d="m 122.18776,86.502172 h 37.68066"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7)"
+       d="m 122.18776,75.142572 h 37.68066"
+       id="path1-6" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="175.15669"
+       y="76.724907"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="175.15669"
+         y="76.724907">acier</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="177.09308"
+       y="89.147926"
+       id="text3-7"><tspan
+         sodipodi:role="line"
+         id="tspan3-0"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="177.09308"
+         y="89.147926">laitier</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7-6)"
+       d="M 97.697365,66.582581 V 47.73194"
+       id="path1-6-9" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="97.608688"
+       y="42.027664"
+       id="text3-75"><tspan
+         sodipodi:role="line"
+         id="tspan3-9"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="97.608688"
+         y="42.027664">CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="141.20143"
+       y="70.6138"
+       id="text3-75-7"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3"
+         style="font-size:7.76111px;fill:#484fb8;fill-opacity:1;stroke-width:0.264583"
+         x="141.20143"
+         y="70.6138">1 kg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="141.00293"
+       y="94.016693"
+       id="text3-75-7-1"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3-9"
+         style="font-size:7.76111px;fill:#b97e78;fill-opacity:1;stroke-width:0.264583"
+         x="141.00293"
+         y="94.016693">0.28 kg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="69.103409"
+       y="58.784504"
+       id="text3-75-7-5"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3-0"
+         style="font-size:7.76111px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="69.103409"
+         y="58.784504">E<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan6">tot</tspan> = 2.11 kg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="83.931854"
+       y="79.057076"
+       id="text3-75-6"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-32"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="83.931854"
+         y="79.057076">Production d'acier</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="83.931854"
+         y="86.994576"
+         id="tspan5">haut-fourneau</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.508527;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-7"
+       width="75.958832"
+       height="28.222263"
+       x="45.97467"
+       y="149.74683" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-5)"
+       d="m 122.18776,169.53776 h 37.68066"
+       id="path1-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7-7)"
+       d="m 122.18776,158.17816 h 37.68066"
+       id="path1-6-5" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="175.15669"
+       y="159.7605"
+       id="text3-2"><tspan
+         sodipodi:role="line"
+         id="tspan3-5"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="175.15669"
+         y="159.7605">acier</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="177.09308"
+       y="172.18352"
+       id="text3-7-4"><tspan
+         sodipodi:role="line"
+         id="tspan3-0-7"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="177.09308"
+         y="172.18352">laitier</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#484fb8;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7-6-5)"
+       d="M 66.47651,149.61817 V 130.76752"
+       id="path1-6-9-4" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#484fb8;fill-opacity:1;stroke-width:0.264583"
+       x="66.387833"
+       y="125.06325"
+       id="text3-75-4"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-30"
+         style="font-size:7.76111px;fill:#484fb8;fill-opacity:1;stroke-width:0.264583"
+         x="66.387833"
+         y="125.06325">CO<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#484fb8;fill-opacity:1"
+   id="tspan4-7">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="141.20143"
+       y="153.64938"
+       id="text3-75-7-8"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3-6"
+         style="font-size:7.76111px;fill:#484fb8;fill-opacity:1;stroke-width:0.264583"
+         x="141.20143"
+         y="153.64938">1 kg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="141.00293"
+       y="177.05228"
+       id="text3-75-7-1-8"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3-9-8"
+         style="font-size:7.76111px;fill:#b97e78;fill-opacity:1;stroke-width:0.264583"
+         x="141.00293"
+         y="177.05228">0.28 kg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="83.931854"
+       y="162.09267"
+       id="text3-75-6-1"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-32-4"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="83.931854"
+         y="162.09267">Production d'acier</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="83.931854"
+         y="170.03017"
+         id="tspan5-9">haut-fourneau</tspan></text>
+    <path
+       style="fill:none;stroke:#b97e78;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7-6-5-9)"
+       d="M 94.087036,149.61817 V 130.76752"
+       id="path1-6-9-4-7" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#b97e78;fill-opacity:1;stroke-width:0.264583"
+       x="93.998367"
+       y="125.06325"
+       id="text3-75-4-3"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-30-6"
+         style="font-size:7.76111px;fill:#b97e78;fill-opacity:1;stroke-width:0.264583"
+         x="93.998367"
+         y="125.06325">CO<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#b97e78;fill-opacity:1"
+   id="tspan4-7-5">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="117.06771"
+       y="142.89034"
+       id="text3-75-7-5-4-6"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3-0-3-3"
+         style="font-size:7.76111px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="117.06771"
+         y="142.89034" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#484fb8;fill-opacity:1;stroke-width:0.264583"
+       x="54.982452"
+       y="142.4805"
+       id="text3-75-7-5-2"><tspan
+         sodipodi:role="line"
+         id="tspan7"
+         x="56.270794"
+         y="142.4805">μE<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#484fb8;fill-opacity:1"
+   id="tspan8">tot</tspan> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#b97e78;fill-opacity:1;stroke-width:0.264583"
+       x="111.40907"
+       y="142.62019"
+       id="text3-75-7-5-2-4"><tspan
+         sodipodi:role="line"
+         id="tspan7-4"
+         x="112.69741"
+         y="142.62019">(1-μ)E<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#b97e78;fill-opacity:1"
+   id="tspan8-4">tot</tspan> </tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.508527;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1-8"
+       width="75.958824"
+       height="28.222263"
+       x="44.200409"
+       y="-6.1415977" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-1)"
+       d="m 120.4135,13.649339 h 37.68066"
+       id="path1-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7-5)"
+       d="m 120.4135,2.2897393 h 37.68066"
+       id="path1-6-7" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="173.38243"
+       y="3.8720741"
+       id="text3-4"><tspan
+         sodipodi:role="line"
+         id="tspan3-1"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="173.38243"
+         y="3.8720741">acier</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="175.31882"
+       y="16.295094"
+       id="text3-7-8"><tspan
+         sodipodi:role="line"
+         id="tspan3-0-5"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="175.31882"
+         y="16.295094">laitier</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7-6-6)"
+       d="M 95.923111,-6.2702517 V -25.120893"
+       id="path1-6-9-9" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="95.834427"
+       y="-30.825171"
+       id="text3-75-75"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-38"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="95.834427"
+         y="-30.825171">CO<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan4-8">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       x="139.42717"
+       y="-2.2390327"
+       id="text3-75-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3-1"
+         style="font-size:7.76111px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="139.42717"
+         y="-2.2390327">1 kg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       x="139.22867"
+       y="21.16386"
+       id="text3-75-7-1-89"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3-9-6"
+         style="font-size:7.76111px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="139.22867"
+         y="21.16386">0.28 kg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="77.612221"
+       y="-13.565911"
+       id="text3-75-7-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3-0-3"
+         style="font-size:7.76111px;fill:#000000;fill-opacity:1;stroke-width:0.264583"
+         x="77.612221"
+         y="-13.565911"> 2.11 kg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="82.157593"
+       y="6.2042427"
+       id="text3-75-6-3"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-32-8"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="82.157593"
+         y="6.2042427">Production d'acier</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;stroke-width:0.264583"
+         x="82.157593"
+         y="14.141743"
+         id="tspan5-6">haut-fourneau</tspan></text>
+    <rect
+       style="fill:none;stroke:#484fb7;stroke-width:0.324471;stroke-dasharray:none;stroke-opacity:0.57254905"
+       id="rect1-7-1"
+       width="30.724051"
+       height="28.406319"
+       x="217.94313"
+       y="224.97058" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-5-9)"
+       d="m 249.43752,290.35254 h 32.28704"
+       id="path1-4-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7-7-6)"
+       d="m 248.66718,239.17374 h 32.08994"
+       id="path1-6-5-8" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="294.06717"
+       y="240.92444"
+       id="text3-2-5"><tspan
+         sodipodi:role="line"
+         id="tspan3-5-0"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="294.06717"
+         y="240.92444">acier</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="296.61166"
+       y="293.00296"
+       id="text3-7-4-6"><tspan
+         sodipodi:role="line"
+         id="tspan3-0-7-4"
+         style="font-size:7.76111px;stroke-width:0.264583"
+         x="296.61166"
+         y="293.00296">laitier</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="263.99789"
+       y="234.22659"
+       id="text3-75-7-8-6"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3-6-2"
+         style="font-size:7.76111px;fill:#484fb8;fill-opacity:1;stroke-width:0.264583"
+         x="263.99789"
+         y="234.22659">1 kg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583"
+       x="266.09879"
+       y="301.94589"
+       id="text3-75-7-1-8-8"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-3-9-8-4"
+         style="font-size:7.76111px;fill:#b97e78;fill-opacity:1;stroke-width:0.264583"
+         x="266.09879"
+         y="301.94589">0.28 kg</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;stroke-width:0.264583;fill:#484fb8;fill-opacity:1"
+       x="234.24812"
+       y="237.37352"
+       id="text3-75-6-1-7"><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;stroke-width:0.264583;fill:#484fb8;fill-opacity:1"
+         x="234.24812"
+         y="237.37352"
+         id="tspan5-9-4">Production </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;stroke-width:0.264583;fill:#484fb8;fill-opacity:1"
+         x="234.24812"
+         y="245.31102"
+         id="tspan12">d'acier</tspan></text>
+    <rect
+       style="fill:none;stroke:#b97e78;stroke-width:0.324471;stroke-dasharray:none;stroke-opacity:0.996078"
+       id="rect1-7-1-3"
+       width="30.724051"
+       height="28.406319"
+       x="218.71346"
+       y="276.14938" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#b97e78;fill-opacity:0.956863;stroke-width:0.264583"
+       x="235.01845"
+       y="288.55234"
+       id="text3-75-6-1-7-9"><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;fill:#b97e78;fill-opacity:0.956863;stroke-width:0.264583"
+         x="235.01845"
+         y="288.55234"
+         id="tspan5-9-4-1">Production </tspan><tspan
+         sodipodi:role="line"
+         style="font-size:6.35px;fill:#b97e78;fill-opacity:0.956863;stroke-width:0.264583"
+         x="235.01845"
+         y="296.48984"
+         id="tspan12-9">de laitier</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#484fb8;stroke-width:0.284719;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7-6-5-0-6)"
+       d="M 237.87054,224.97058 V 213.50036"
+       id="path1-6-9-4-6-9" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#484fb8;fill-opacity:1;stroke-width:0.264583"
+       x="237.98106"
+       y="209.48593"
+       id="text3-75-4-2-8"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-30-5-7"
+         style="font-size:7.76111px;fill:#484fb8;fill-opacity:1;stroke-width:0.264583"
+         x="237.98106"
+         y="209.48593">CO<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#484fb8;fill-opacity:1"
+   id="tspan4-7-8-2">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#484fb8;fill-opacity:1;stroke-width:0.264583"
+       x="228.20081"
+       y="218.33531"
+       id="text3-75-7-5-2-9-8"><tspan
+         sodipodi:role="line"
+         id="tspan7-0-2"
+         x="229.48915"
+         y="218.33531">E<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan13">acier</tspan> </tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#b97e78;stroke-width:0.269731;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ArrowWide-7-6-5-0-6-0)"
+       d="M 238.67784,275.98715 V 265.69274"
+       id="path1-6-9-4-6-9-1" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#b97e78;fill-opacity:0.956863;stroke-width:0.264583"
+       x="238.58916"
+       y="261.74652"
+       id="text3-75-4-2-8-3"><tspan
+         sodipodi:role="line"
+         id="tspan3-9-30-5-7-2"
+         style="font-size:7.76111px;fill:#b97e78;fill-opacity:0.956863;stroke-width:0.264583"
+         x="238.58916"
+         y="261.74652">CO<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#b97e78;fill-opacity:0.956863"
+   id="tspan4-7-8-2-1">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.76111px;line-height:1.25;font-family:'Latin Modern Math';-inkscape-font-specification:'Latin Modern Math';text-align:center;text-anchor:middle;fill:#b97e78;fill-opacity:1;stroke-width:0.264583"
+       x="227.39246"
+       y="270.68411"
+       id="text3-75-7-5-2-9-8-5"><tspan
+         sodipodi:role="line"
+         id="tspan7-0-2-9"
+         x="228.6808"
+         y="270.68411">E<tspan
+   style="font-size:65%;baseline-shift:sub;fill:#b97e78;fill-opacity:1"
+   id="tspan13-9">laitier</tspan> </tspan></text>
+  </g>
+</svg>
